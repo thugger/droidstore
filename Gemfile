@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -33,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  # Call 'byebug' anywhere in the code, stops exec, start debugger console
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -43,8 +42,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
-
 gem 'activeadmin', github: 'activeadmin'
 
 gem 'devise'
@@ -52,3 +49,5 @@ gem 'devise'
 gem 'carrierwave'
 
 gem 'mini_magick'
+
+gem 'rubocop'
